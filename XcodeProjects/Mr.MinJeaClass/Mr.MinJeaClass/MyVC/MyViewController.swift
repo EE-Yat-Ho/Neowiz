@@ -35,11 +35,6 @@ class MyViewController: UIViewController {
     func configure() {
         tableView.dataSource = self
         dataes = loadJson(filename: fileName) ?? []
-        
-//        guard if dataes = loadJson(filename: fileName) else {
-//            print("loadJson ERROR")
-//            return
-//        }
     }
         
     
