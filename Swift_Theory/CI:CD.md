@@ -24,6 +24,11 @@ $ docker pull jenkins/jenkins:lts
 $ docker run -d \
     -p 8080:8080 -p 50000:50000 \
     --name jenkins jenkins/jenkins:lts
+    
+20210215
+야이씌 그냥 jenkins start 하면됨;
+jenkins stop
+jenkins restart도 됨..
 
 
 3. Fastlane
